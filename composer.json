@@ -6,10 +6,10 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "fredwinrosales/helloworld": "dev-master",
         "jeroennoten/laravel-adminlte": "^1.19",
         "laravel/framework": "5.4.*",
-        "laravel/tinker": "~1.0",
-        "fredwinrosales/helloworld": "1.0.0"
+        "laravel/tinker": "~1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -49,5 +49,6 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true
-    }
+    },
+    "minimum-stability": "dev"
 }
