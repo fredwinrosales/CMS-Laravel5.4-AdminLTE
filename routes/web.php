@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/profile', 'Cms\ProfileController@edit')->name('profile');
+Route::put('/profile/{id}', 'Cms\ProfileController@update')->name('profile-update');
